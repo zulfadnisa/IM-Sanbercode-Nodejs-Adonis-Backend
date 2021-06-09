@@ -1,3 +1,4 @@
+console.log('STRING')
 // 1
 console.log('--------Tugas 1------')
 var word = 'JavaScript'; 

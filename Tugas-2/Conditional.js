@@ -1,3 +1,4 @@
+console.log('CONDITIONAL')
 //IF ELSE
 console.log("--------IF ELSE------");
 const prompt = require("prompt-sync")();
