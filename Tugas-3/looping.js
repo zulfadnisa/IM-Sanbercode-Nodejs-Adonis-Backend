@@ -1,4 +1,4 @@
-console.log('----1-----')
+console.log("----1-----");
 console.log("LOOPING PERTAMA");
 var i = 1;
 while (i <= 20) {
@@ -16,7 +16,7 @@ while (i > 0) {
   i = i - 1;
 }
 
-console.log('----2-----')
+console.log("----2-----");
 for (let i = 1; i <= 20; i++) {
   if (i % 2 == 0) {
     console.log(`${i} - Berkualitas`);
@@ -29,7 +29,7 @@ for (let i = 1; i <= 20; i++) {
   }
 }
 
-console.log('----3-----')
+console.log("----3-----");
 for (let i = 1; i <= 4; i++) {
   var panjang = "";
   for (let j = 1; j <= 8; j++) {
@@ -38,14 +38,14 @@ for (let i = 1; i <= 4; i++) {
   console.log(panjang);
 }
 
-console.log('----4-----')
+console.log("----4-----");
 tangga = "";
 for (let i = 1; i <= 7; i++) {
   tangga = tangga + "#";
   console.log(tangga);
 }
 
-console.log('----5-----')
+console.log("----5-----");
 for (let i = 1; i <= 8; i++) {
   var panjang = "";
   for (let j = 1; j <= 8; j++) {
