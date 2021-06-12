@@ -78,19 +78,29 @@ dataHandling(input);
 
 //5
 let balikKata = (...kata) => {
-  var result = ''
+  var result = "";
   for (let j = kata.length - 1; j >= 0; j--) {
     var reverse = "";
     var el = kata[j];
     for (let i = el.length - 1; i >= 0; i--) {
       reverse += el[i];
     }
-    result = result + reverse + ' '
+    result = result + reverse + " ";
   }
-  return result
+  return result;
 };
+// let balikKata = (kata) => {
+//     var reverse = "";
+//       for (let i = kata.length - 1; i >= 0; i--) {
+//         if (kata[i]!==','){
+//           reverse += kata[i];
+//         }else{
+//             reverse = reverse + ' '
+//         }
+//       }
+//       return reverse}
 console.log(balikKata("SanberCode"));
 console.log(balikKata("racecar"));
 console.log(balikKata("kasur", "rusak"));
 console.log(balikKata("haji", "ijah"));
-console.log(balikKata("I","am","Sanbers"));
+console.log(balikKata("I", "am", "Sanbers"));
