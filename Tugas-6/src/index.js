@@ -9,7 +9,6 @@ var command = args[0];
 
 switch (command) {
   case "sapa":
-    // console.log(args);
     var name = args[1];
     console.log(sapa(name));
     break;
