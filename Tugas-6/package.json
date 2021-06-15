@@ -13,7 +13,8 @@
   "devDependencies": {},
   "scripts": {
     "babel": "./node_modules/.bin/babel",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npm run babel src -- --out-dir dist --watch"
   },
   "keywords": [],
   "author": "zulfadnisa",
