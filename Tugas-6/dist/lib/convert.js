@@ -8,7 +8,7 @@ var convert = function convert() {
   var nama = biodata[0],
       domisili = biodata[1],
       umur = biodata[2];
-  obj = {
+  var obj = {
     nama: nama,
     domisili: domisili,
     umur: umur

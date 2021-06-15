@@ -14,7 +14,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 var checkScore = function checkScore(str) {
   var arr = str.split(',');
-  obj = {};
+  var obj = {};
   arr.forEach(function (el) {
     var arrObj = el.split(':');
 
@@ -27,9 +27,6 @@ var checkScore = function checkScore(str) {
 
   return obj;
 }; // checkScore('name:Ahmad,class:Adonis,score:89')
-// node dist checkScore name:Ahmad,class:Adonis,score:89
-// Output
-// { "name": "Ahmad", "class": "Adonis", "score": 89 }
 
 
 module.exports = checkScore;

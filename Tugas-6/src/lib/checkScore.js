@@ -1,6 +1,6 @@
 const checkScore = (str)=>{
     const arr = str.split(',')
-    obj = {}
+    var obj = {}
     arr.forEach((el)=>{
         const arrObj = el.split(':')
         const [key,value] = arrObj;
@@ -10,9 +10,5 @@ const checkScore = (str)=>{
     return obj
 }
 // checkScore('name:Ahmad,class:Adonis,score:89')
-// node dist checkScore name:Ahmad,class:Adonis,score:89
 
-// Output
-
-// { "name": "Ahmad", "class": "Adonis", "score": 89 }
 module.exports = checkScore

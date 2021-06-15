@@ -1,6 +1,6 @@
 const convert = (...biodata)=>{
     const [nama,domisili,umur] = biodata
-    obj = {
+    var obj = {
         nama,
         domisili,
         umur
