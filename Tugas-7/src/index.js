@@ -16,7 +16,7 @@ names.map((nama, index) => {
   sanber.register(kelas, nama)
 })
 
-console.log('-----RELEASE 1---------')
+console.log('-----RELEASE 1 Composition---------')
 sanber.classes.forEach(kelas => {
   console.log(kelas)
   sanber.runBatch(kelas.name,4)
