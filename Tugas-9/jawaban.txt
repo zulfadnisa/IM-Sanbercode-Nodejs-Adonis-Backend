@@ -20,3 +20,5 @@ c. SELECT * FROM items INNER JOIN categories ON items.category_id=categories.id
 
 5. UPDATE items SET price= 2500000 WHERE name LIKE "sumsang%"
 
+JAWABAN QUIZ-2
+SELECT DISTINCT name, COUNT(*) as post_count FROM posts INNER JOIN users ON users.id=posts.user_id
