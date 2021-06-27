@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +14,14 @@
 */
 
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
-const Route = use('Route')
+const Route = use("Route");
 
-Route.on('/').render('welcome')
+Route.on("/").render("welcome");
+
+Route.group(() => {
+  Route.get("genres", "GenresController.index");
+  Route.get('genres/:id', 'GenresController.show')
+  Route.post("genres", "GenresController.store");
+  Route.put('genres/:id', 'GenresController.update')
+  Route.delete('genres/:id', 'GenresController.delete')
+}).prefix("api/v1");
